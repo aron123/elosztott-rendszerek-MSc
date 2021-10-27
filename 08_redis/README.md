@@ -9,7 +9,7 @@ A projekt egy Redis-t használó Spring Boot alapú, személyek tárolására sz
 Az alkalmazás 2 végpontot biztosít, alapértelmezetten a localhost 8080-as portján:
 
 * Személyek lekérdezése: `GET http://localhost:8080/person/:id`
-* Személyek lekérdezése:
+* Személyek felvitele:
   ```  
   POST http://localhost:8080/person
   Content-Type: application/json
